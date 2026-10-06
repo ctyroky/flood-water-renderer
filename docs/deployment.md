@@ -42,5 +42,17 @@ from the renderer. The site is not an offline dataset bundle. A restrictive
 Content Security Policy must allow the resources needed by the host scene and
 SDK; do not embed private tokens in static assets.
 
-No deployment workflow is included. CI only validates code and builds; it does
-not enable Pages, upload a site, create releases or publish to npm.
+## GitHub Pages build
+
+`npm run build:pages` first builds the same reusable library and then builds the
+Prague entry with Vite mode `pages`, base `/flood-water-renderer/`, and output
+`demo-dist/`. The minimal integration example is omitted from the Pages artifact.
+The default library/demo builds and existing CI are unchanged.
+
+`.github/workflows/pages.yml` uses the official configure-pages,
+upload-pages-artifact and deploy-pages actions. Build permissions are contents
+read and pages read; only the deployment job receives pages write and id-token
+write. Deployment uses the github-pages environment, not a gh-pages branch.
+The workflow is restricted to the canonical public repository and main branch
+pushes (or manual dispatch). Enable Pages with GitHub Actions as the source.
+No workflow creates GitHub Releases or publishes to npm.

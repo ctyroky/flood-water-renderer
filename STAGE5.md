@@ -1,5 +1,8 @@
 # Stage 5 — production module and developer API
 
+Historical verification report. The original local handover licensing status
+has since been replaced by the [MIT License](LICENSE); version remains 0.1.0.
+
 Version **0.1.0**, implemented and verified on 2026-10-06 against
 `@arcgis/core 5.1.26`. This is a private/local handover package, not an npm
 publication or a claim of stable 1.0 compatibility. Rendering effects and the
@@ -168,8 +171,9 @@ The JS gzip estimate is about 16.2 kB. No SDK implementation is bundled. Package
 exports expose only the intentional entry; internal paths are not supported API.
 The local npm archive has six files: the two dist files, README, package.json,
 docs/architecture.md and docs/data-contract.md. `private:true`, version 0.1.0,
-`UNLICENSED`, exports/types/files/peerDependencies/scripts are set. Nothing was
-published. License/ownership terms must be agreed before external redistribution.
+the original local handover license status, exports/types/files/peerDependencies/
+scripts were set. Nothing was published during Stage 5. Current project code and
+documentation are MIT licensed; third-party data and SDK terms remain separate.
 
 The original local handover archive was
 `flood-water-renderer-0.1.0.tgz`, **27,829 bytes**. Archives are not tracked;

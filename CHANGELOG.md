@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Adopt the MIT License with copyright attributed to Jiří Čtyroký.
+- Prepare a Pages build and Actions deployment of the existing Prague demo.
 - Add GitHub CI for builds, Node tests, public type checks and package inspection.
 - Add contributor, deployment and publication documentation.
 - Include the Czech illustrated renderer and implementation guide.

@@ -1,8 +1,8 @@
 # Working on flood-water-renderer
 
-The project is pre-1.0 and remains **UNLICENSED**. Agree contribution and usage
-terms with the maintainer before submitting code; no contributor license
-agreement or open-source license is implied by this document.
+The project is pre-1.0 and uses the [MIT License](LICENSE). Submit only work you
+are authorized to contribute under that license. Third-party datasets and SDKs
+retain their own terms.
 
 ## Development
 

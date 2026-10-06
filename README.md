@@ -6,9 +6,12 @@ procedural water normals using the local velocity. It owns no SceneView, map,
 source layers, camera or UI. No water textures or pre-generated water tiles need
 to be deployed.
 
-Version **0.1.0**, pre-1.0 API; not published to npm. The repository remains
-**UNLICENSED** (see [license status](LICENSE)). `private: true` prevents accidental
+Version **0.1.0**, pre-1.0 API; not published to npm. Project source code and
+documentation use the **[MIT License](LICENSE)**. `private: true` prevents accidental
 npm publication; it does not determine the repository's GitHub visibility.
+
+ArcGIS SDK dependencies, map services, datasets and imagery remain subject to
+their own terms and attribution. The project MIT license does not relicense them.
 
 ![Flow-driven water in the Prague demonstration scene](docs/stage5/prague-controls.png)
 

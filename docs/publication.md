@@ -1,7 +1,10 @@
-# GitHub publication handoff
+# GitHub publication and public-release preparation
 
-The project is prepared locally. No GitHub repository, remote URL or deployment
-is created by the preparation changes.
+Repository: https://github.com/ctyroky/flood-water-renderer
+
+Project source and documentation use the [MIT License](../LICENSE), with
+copyright attributed to Jiří Čtyroký from Git author metadata. Package version
+remains 0.1.0. Third-party ArcGIS SDKs and datasets retain their own terms.
 
 ## Repository contents
 
@@ -13,11 +16,10 @@ verification runs and are not current CI results.
 
 ## Choices before publishing
 
-- Choose the GitHub owner, repository name and visibility. No URLs in package
-  metadata are invented before that choice.
-- The project deliberately remains `UNLICENSED`; `LICENSE` records that status.
-  `private: true` in package.json prevents npm publication, not a public GitHub
-  repository.
+- Repository ownership/name remain ctyroky/flood-water-renderer. Public visibility
+  and Pages have been explicitly authorized by the owner.
+- `private: true` in package.json prevents npm publication, not a public GitHub
+  repository. No npm publishing or GitHub Release workflow is configured.
 - Confirm that the intended visibility is appropriate for the source and the
   existing map screenshots, service references and data attribution. ArcGIS and
   the Prague services have their own terms; no dataset license is supplied here.
@@ -42,13 +44,12 @@ secret exists, particularly in binary artifacts.
 
 ## After a repository is explicitly authorized
 
-Create the chosen repository, then set the real `repository`, `bugs` and
-`homepage` package metadata as appropriate. Commit the reviewed files, connect
-the approved remote and push the intended branch. Enable repository settings
-such as branch protection and private vulnerability reporting if desired.
-Those account-side actions are intentionally deferred.
+Preserve the existing repository and history. Commit reviewed changes and wait
+for CI before changing visibility. The separate Pages workflow is guarded so
+that it deploys only from the canonical public repository. It builds from source
+and uploads demo-dist as an artifact; generated output is not committed.
 
-## Preparation verification (2026-10-06)
+## Original private-publication verification (2026-10-06)
 
 - Windows / Node 24.21.0: library and both example builds passed, all 7 Node
   tests passed, and public TypeScript declaration checks passed.
@@ -67,5 +68,25 @@ Those account-side actions are intentionally deferred.
 The CI workflow uses the documented
 [checkout](https://github.com/actions/checkout) and
 [setup-node](https://github.com/actions/setup-node) actions. It requests read-only
-repository permissions and does not retain checkout credentials. Its first
-GitHub-hosted run can only be verified after publication.
+repository permissions and does not retain checkout credentials. The initial
+GitHub-hosted run subsequently passed on Windows and Ubuntu.
+
+## Public-release audit (2026-10-06)
+
+The full reachable local history, including the local checkpoint ref, contained
+4 commits and 110 unique file blobs. Credential, private-key, npm-token,
+credential-bearing URL, personal filesystem path and unintended file checks
+found no confirmed sensitive content. The only path-pattern match was the
+public ArcGIS `/home/webscene/` URL, not a personal filesystem path.
+
+The review covered Stage reports, configuration, examples, the PDF's text and
+metadata, and 23 historical image assets. The images show the demonstration and
+an initial Vite template asset; the largest file is about 2.1 MB. Existing author
+names and the professional Git email remain in commit metadata. No history is
+rewritten or anonymized. Pattern checks are not a formal security audit.
+
+Anonymous requests succeeded for the WebScene and its referenced portal items
+(all public), layer metadata, basemap style and flood polygon query. Bounded
+sample velocity and elevation LERC tiles returned HTTP 200 and CORS allowing the
+Pages origin. No token, cookie or Authorization header was used. This verifies
+access, not a transfer of dataset ownership or licensing.
