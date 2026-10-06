@@ -1,0 +1,1012 @@
+{
+  "issues": [],
+  "http": [],
+  "cycles": [
+    {
+      "before": {
+        "s": {
+          "state": "running",
+          "ready": true,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 16,
+            "ready": 49,
+            "loading": 2,
+            "cached": 65,
+            "failed": 0,
+            "empty": 22,
+            "active": 0
+          },
+          "memory": {
+            "approximateCpuBytes": 113184972,
+            "approximateGpuBytes": 113184972
+          },
+          "statistics": {
+            "velocityRequests": 27,
+            "footprintRequests": 51,
+            "surfaceRequests": 27,
+            "cacheHits": 48,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 127.14814814649246,
+            "averageSurfaceMs": 121.0592592584866,
+            "frames": 457,
+            "velocityUploads": 27,
+            "maskUploads": 27,
+            "shaderCompilations": 1,
+            "disposedTiles": 0,
+            "meanCpuSubmissionMs": 1.2722100654303115
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 54,
+            "created": 54,
+            "deleted": 0
+          },
+          "Buffer": {
+            "live": 54,
+            "created": 54,
+            "deleted": 0
+          },
+          "VertexArray": {
+            "live": 27,
+            "created": 27,
+            "deleted": 0
+          },
+          "Program": {
+            "live": 1,
+            "created": 1,
+            "deleted": 0
+          },
+          "Shader": {
+            "live": 0,
+            "created": 2,
+            "deleted": 2
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        }
+      },
+      "after": {
+        "s": {
+          "state": "destroyed",
+          "ready": false,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 0,
+            "ready": 0,
+            "loading": 0,
+            "cached": 0,
+            "failed": 0,
+            "empty": 0,
+            "active": 0
+          },
+          "memory": {
+            "approximateCpuBytes": 0,
+            "approximateGpuBytes": 0
+          },
+          "statistics": {
+            "velocityRequests": 27,
+            "footprintRequests": 51,
+            "surfaceRequests": 27,
+            "cacheHits": 48,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 127.14814814649246,
+            "averageSurfaceMs": 121.0592592584866,
+            "frames": 458,
+            "velocityUploads": 27,
+            "maskUploads": 27,
+            "shaderCompilations": 1,
+            "disposedTiles": 27,
+            "meanCpuSubmissionMs": 1.2709606984817305
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 0,
+            "created": 54,
+            "deleted": 54
+          },
+          "Buffer": {
+            "live": 0,
+            "created": 54,
+            "deleted": 54
+          },
+          "VertexArray": {
+            "live": 0,
+            "created": 27,
+            "deleted": 27
+          },
+          "Program": {
+            "live": 0,
+            "created": 1,
+            "deleted": 1
+          },
+          "Shader": {
+            "live": 0,
+            "created": 2,
+            "deleted": 2
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        },
+        "viewUsable": true,
+        "drawsAfterDestroy": 0,
+        "code": "RENDERER_DESTROYED"
+      },
+      "restarted": {
+        "state": "running",
+        "ready": true,
+        "scenarioId": "prague-5160-v1",
+        "limited": false,
+        "tiles": {
+          "required": 20,
+          "ready": 20,
+          "loading": 0,
+          "cached": 20,
+          "failed": 0,
+          "empty": 12,
+          "active": 4
+        },
+        "memory": {
+          "approximateCpuBytes": 33536288,
+          "approximateGpuBytes": 33536288
+        },
+        "statistics": {
+          "velocityRequests": 8,
+          "footprintRequests": 20,
+          "surfaceRequests": 8,
+          "cacheHits": 0,
+          "evictions": 0,
+          "cancellations": 0,
+          "averageVelocityMs": 133.8624999988824,
+          "averageSurfaceMs": 131.77499999850988,
+          "frames": 145,
+          "velocityUploads": 8,
+          "maskUploads": 8,
+          "shaderCompilations": 1,
+          "disposedTiles": 0,
+          "meanCpuSubmissionMs": 0.7041379316099758
+        },
+        "lastError": null
+      }
+    },
+    {
+      "before": {
+        "s": {
+          "state": "running",
+          "ready": true,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 20,
+            "ready": 20,
+            "loading": 0,
+            "cached": 20,
+            "failed": 0,
+            "empty": 12,
+            "active": 4
+          },
+          "memory": {
+            "approximateCpuBytes": 33536288,
+            "approximateGpuBytes": 33536288
+          },
+          "statistics": {
+            "velocityRequests": 8,
+            "footprintRequests": 20,
+            "surfaceRequests": 8,
+            "cacheHits": 0,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 133.8624999988824,
+            "averageSurfaceMs": 131.77499999850988,
+            "frames": 145,
+            "velocityUploads": 8,
+            "maskUploads": 8,
+            "shaderCompilations": 1,
+            "disposedTiles": 0,
+            "meanCpuSubmissionMs": 0.7041379316099758
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 16,
+            "created": 70,
+            "deleted": 54
+          },
+          "Buffer": {
+            "live": 16,
+            "created": 70,
+            "deleted": 54
+          },
+          "VertexArray": {
+            "live": 8,
+            "created": 35,
+            "deleted": 27
+          },
+          "Program": {
+            "live": 1,
+            "created": 2,
+            "deleted": 1
+          },
+          "Shader": {
+            "live": 0,
+            "created": 4,
+            "deleted": 4
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        }
+      },
+      "after": {
+        "s": {
+          "state": "destroyed",
+          "ready": false,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 0,
+            "ready": 0,
+            "loading": 0,
+            "cached": 0,
+            "failed": 0,
+            "empty": 0,
+            "active": 0
+          },
+          "memory": {
+            "approximateCpuBytes": 0,
+            "approximateGpuBytes": 0
+          },
+          "statistics": {
+            "velocityRequests": 8,
+            "footprintRequests": 20,
+            "surfaceRequests": 8,
+            "cacheHits": 0,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 133.8624999988824,
+            "averageSurfaceMs": 131.77499999850988,
+            "frames": 145,
+            "velocityUploads": 8,
+            "maskUploads": 8,
+            "shaderCompilations": 1,
+            "disposedTiles": 8,
+            "meanCpuSubmissionMs": 0.7041379316099758
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 0,
+            "created": 70,
+            "deleted": 70
+          },
+          "Buffer": {
+            "live": 0,
+            "created": 70,
+            "deleted": 70
+          },
+          "VertexArray": {
+            "live": 0,
+            "created": 35,
+            "deleted": 35
+          },
+          "Program": {
+            "live": 0,
+            "created": 2,
+            "deleted": 2
+          },
+          "Shader": {
+            "live": 0,
+            "created": 4,
+            "deleted": 4
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        },
+        "viewUsable": true,
+        "drawsAfterDestroy": 0,
+        "code": "RENDERER_DESTROYED"
+      },
+      "restarted": {
+        "state": "running",
+        "ready": true,
+        "scenarioId": "prague-5160-v1",
+        "limited": false,
+        "tiles": {
+          "required": 20,
+          "ready": 20,
+          "loading": 0,
+          "cached": 20,
+          "failed": 0,
+          "empty": 12,
+          "active": 4
+        },
+        "memory": {
+          "approximateCpuBytes": 33536288,
+          "approximateGpuBytes": 33536288
+        },
+        "statistics": {
+          "velocityRequests": 8,
+          "footprintRequests": 20,
+          "surfaceRequests": 8,
+          "cacheHits": 0,
+          "evictions": 0,
+          "cancellations": 0,
+          "averageVelocityMs": 133.54999999515712,
+          "averageSurfaceMs": 200.41249999590218,
+          "frames": 36,
+          "velocityUploads": 8,
+          "maskUploads": 8,
+          "shaderCompilations": 1,
+          "disposedTiles": 0,
+          "meanCpuSubmissionMs": 1.1055555554727714
+        },
+        "lastError": null
+      }
+    },
+    {
+      "before": {
+        "s": {
+          "state": "running",
+          "ready": true,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 20,
+            "ready": 20,
+            "loading": 0,
+            "cached": 20,
+            "failed": 0,
+            "empty": 12,
+            "active": 4
+          },
+          "memory": {
+            "approximateCpuBytes": 33536288,
+            "approximateGpuBytes": 33536288
+          },
+          "statistics": {
+            "velocityRequests": 8,
+            "footprintRequests": 20,
+            "surfaceRequests": 8,
+            "cacheHits": 0,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 133.54999999515712,
+            "averageSurfaceMs": 200.41249999590218,
+            "frames": 36,
+            "velocityUploads": 8,
+            "maskUploads": 8,
+            "shaderCompilations": 1,
+            "disposedTiles": 0,
+            "meanCpuSubmissionMs": 1.1055555554727714
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 16,
+            "created": 86,
+            "deleted": 70
+          },
+          "Buffer": {
+            "live": 16,
+            "created": 86,
+            "deleted": 70
+          },
+          "VertexArray": {
+            "live": 8,
+            "created": 43,
+            "deleted": 35
+          },
+          "Program": {
+            "live": 1,
+            "created": 3,
+            "deleted": 2
+          },
+          "Shader": {
+            "live": 0,
+            "created": 6,
+            "deleted": 6
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        }
+      },
+      "after": {
+        "s": {
+          "state": "destroyed",
+          "ready": false,
+          "scenarioId": "prague-5160-v1",
+          "limited": false,
+          "tiles": {
+            "required": 0,
+            "ready": 0,
+            "loading": 0,
+            "cached": 0,
+            "failed": 0,
+            "empty": 0,
+            "active": 0
+          },
+          "memory": {
+            "approximateCpuBytes": 0,
+            "approximateGpuBytes": 0
+          },
+          "statistics": {
+            "velocityRequests": 8,
+            "footprintRequests": 20,
+            "surfaceRequests": 8,
+            "cacheHits": 0,
+            "evictions": 0,
+            "cancellations": 0,
+            "averageVelocityMs": 133.54999999515712,
+            "averageSurfaceMs": 200.41249999590218,
+            "frames": 36,
+            "velocityUploads": 8,
+            "maskUploads": 8,
+            "shaderCompilations": 1,
+            "disposedTiles": 8,
+            "meanCpuSubmissionMs": 1.1055555554727714
+          },
+          "lastError": null
+        },
+        "g": {
+          "Texture": {
+            "live": 0,
+            "created": 86,
+            "deleted": 86
+          },
+          "Buffer": {
+            "live": 0,
+            "created": 86,
+            "deleted": 86
+          },
+          "VertexArray": {
+            "live": 0,
+            "created": 43,
+            "deleted": 43
+          },
+          "Program": {
+            "live": 0,
+            "created": 3,
+            "deleted": 3
+          },
+          "Shader": {
+            "live": 0,
+            "created": 6,
+            "deleted": 6
+          },
+          "TransformFeedback": {
+            "live": 0,
+            "created": 0,
+            "deleted": 0
+          }
+        },
+        "viewUsable": true,
+        "drawsAfterDestroy": 0,
+        "code": "RENDERER_DESTROYED"
+      },
+      "restarted": {
+        "state": "running",
+        "ready": true,
+        "scenarioId": "prague-5160-v1",
+        "limited": false,
+        "tiles": {
+          "required": 20,
+          "ready": 20,
+          "loading": 0,
+          "cached": 20,
+          "failed": 0,
+          "empty": 12,
+          "active": 4
+        },
+        "memory": {
+          "approximateCpuBytes": 33536288,
+          "approximateGpuBytes": 33536288
+        },
+        "statistics": {
+          "velocityRequests": 8,
+          "footprintRequests": 20,
+          "surfaceRequests": 8,
+          "cacheHits": 0,
+          "evictions": 0,
+          "cancellations": 0,
+          "averageVelocityMs": 121.43749999813735,
+          "averageSurfaceMs": 201.47500000149012,
+          "frames": 35,
+          "velocityUploads": 8,
+          "maskUploads": 8,
+          "shaderCompilations": 1,
+          "disposedTiles": 0,
+          "meanCpuSubmissionMs": 1.180000000340598
+        },
+        "lastError": null
+      }
+    }
+  ],
+  "artifactRequested": true,
+  "artifactSha256": "5aba81ab9f212ed5f76020e8cd3d7802149ffbdaa4423860c7153616d130f81a",
+  "chrome": "154.0.8037.97",
+  "node": "v24.21.0",
+  "initial": {
+    "status": {
+      "state": "running",
+      "ready": true,
+      "scenarioId": "prague-5160-v1",
+      "limited": false,
+      "tiles": {
+        "required": 16,
+        "ready": 16,
+        "loading": 0,
+        "cached": 25,
+        "failed": 0,
+        "empty": 6,
+        "active": 4
+      },
+      "memory": {
+        "approximateCpuBytes": 41920360,
+        "approximateGpuBytes": 41920360
+      },
+      "statistics": {
+        "velocityRequests": 10,
+        "footprintRequests": 16,
+        "surfaceRequests": 10,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 101.9899999961257,
+        "averageSurfaceMs": 111.41000000089407,
+        "frames": 153,
+        "velocityUploads": 10,
+        "maskUploads": 10,
+        "shaderCompilations": 1,
+        "disposedTiles": 0,
+        "meanCpuSubmissionMs": 1.927450979359789
+      },
+      "lastError": null
+    },
+    "gl": {
+      "Texture": {
+        "live": 20,
+        "created": 20,
+        "deleted": 0
+      },
+      "Buffer": {
+        "live": 20,
+        "created": 20,
+        "deleted": 0
+      },
+      "VertexArray": {
+        "live": 10,
+        "created": 10,
+        "deleted": 0
+      },
+      "Program": {
+        "live": 1,
+        "created": 1,
+        "deleted": 0
+      },
+      "Shader": {
+        "live": 0,
+        "created": 2,
+        "deleted": 2
+      },
+      "TransformFeedback": {
+        "live": 0,
+        "created": 0,
+        "deleted": 0
+      }
+    }
+  },
+  "controls": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 16,
+      "ready": 16,
+      "loading": 0,
+      "cached": 25,
+      "failed": 0,
+      "empty": 6,
+      "active": 4
+    },
+    "memory": {
+      "approximateCpuBytes": 41920360,
+      "approximateGpuBytes": 41920360
+    },
+    "statistics": {
+      "velocityRequests": 10,
+      "footprintRequests": 16,
+      "surfaceRequests": 10,
+      "cacheHits": 0,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 101.9899999961257,
+      "averageSurfaceMs": 111.41000000089407,
+      "frames": 154,
+      "velocityUploads": 10,
+      "maskUploads": 10,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 1.9188311677668002
+    },
+    "lastError": null
+  },
+  "gpuSeams": {
+    "samples": 316,
+    "maxRGBAError": 0,
+    "timeVarying": 207,
+    "glError": 0
+  },
+  "nearby": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 20,
+      "ready": 20,
+      "loading": 0,
+      "cached": 29,
+      "failed": 0,
+      "empty": 7,
+      "active": 6
+    },
+    "memory": {
+      "approximateCpuBytes": 54496468,
+      "approximateGpuBytes": 54496468
+    },
+    "statistics": {
+      "velocityRequests": 13,
+      "footprintRequests": 20,
+      "surfaceRequests": 13,
+      "cacheHits": 16,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 123.59999999633202,
+      "averageSurfaceMs": 123.68461538622013,
+      "frames": 218,
+      "velocityUploads": 13,
+      "maskUploads": 13,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 1.6064220176787551
+    },
+    "lastError": null
+  },
+  "returned": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 16,
+      "ready": 20,
+      "loading": 0,
+      "cached": 29,
+      "failed": 0,
+      "empty": 7,
+      "active": 4
+    },
+    "memory": {
+      "approximateCpuBytes": 54496468,
+      "approximateGpuBytes": 54496468
+    },
+    "statistics": {
+      "velocityRequests": 13,
+      "footprintRequests": 20,
+      "surfaceRequests": 13,
+      "cacheHits": 32,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 123.59999999633202,
+      "averageSurfaceMs": 123.68461538622013,
+      "frames": 268,
+      "velocityUploads": 13,
+      "maskUploads": 13,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 1.6324626859555493
+    },
+    "lastError": null
+  },
+  "north": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 20,
+      "ready": 49,
+      "loading": 0,
+      "cached": 49,
+      "failed": 0,
+      "empty": 22,
+      "active": 3
+    },
+    "memory": {
+      "approximateCpuBytes": 113184972,
+      "approximateGpuBytes": 113184972
+    },
+    "statistics": {
+      "velocityRequests": 27,
+      "footprintRequests": 49,
+      "surfaceRequests": 27,
+      "cacheHits": 48,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 127.14814814649246,
+      "averageSurfaceMs": 121.0592592584866,
+      "frames": 447,
+      "velocityUploads": 27,
+      "maskUploads": 27,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 1.2852348991288434
+    },
+    "lastError": null
+  },
+  "stop": {
+    "status": {
+      "state": "stopped",
+      "ready": false,
+      "scenarioId": "prague-5160-v1",
+      "limited": false,
+      "tiles": {
+        "required": 0,
+        "ready": 0,
+        "loading": 0,
+        "cached": 0,
+        "failed": 0,
+        "empty": 0,
+        "active": 0
+      },
+      "memory": {
+        "approximateCpuBytes": 0,
+        "approximateGpuBytes": 0
+      },
+      "statistics": {
+        "velocityRequests": 8,
+        "footprintRequests": 20,
+        "surfaceRequests": 8,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 121.43749999813735,
+        "averageSurfaceMs": 201.47500000149012,
+        "frames": 35,
+        "velocityUploads": 8,
+        "maskUploads": 8,
+        "shaderCompilations": 1,
+        "disposedTiles": 8,
+        "meanCpuSubmissionMs": 1.180000000340598
+      },
+      "lastError": null
+    },
+    "gl": {
+      "Texture": {
+        "live": 0,
+        "created": 102,
+        "deleted": 102
+      },
+      "Buffer": {
+        "live": 0,
+        "created": 102,
+        "deleted": 102
+      },
+      "VertexArray": {
+        "live": 0,
+        "created": 51,
+        "deleted": 51
+      },
+      "Program": {
+        "live": 0,
+        "created": 4,
+        "deleted": 4
+      },
+      "Shader": {
+        "live": 0,
+        "created": 8,
+        "deleted": 8
+      },
+      "TransformFeedback": {
+        "live": 0,
+        "created": 0,
+        "deleted": 0
+      }
+    },
+    "p": {
+      "flowSpeed": 2.5,
+      "brightness": 1.4,
+      "reflection": 1.5,
+      "waterColor": 0.45,
+      "opacity": 0.96,
+      "paused": false
+    }
+  },
+  "cancel": {
+    "same": true,
+    "codes": [
+      "ABORTED",
+      "ABORTED"
+    ],
+    "status": {
+      "state": "stopped",
+      "ready": false,
+      "scenarioId": "prague-5160-v1",
+      "limited": false,
+      "tiles": {
+        "required": 0,
+        "ready": 0,
+        "loading": 0,
+        "cached": 0,
+        "failed": 0,
+        "empty": 0,
+        "active": 0
+      },
+      "memory": {
+        "approximateCpuBytes": 0,
+        "approximateGpuBytes": 0
+      },
+      "statistics": {
+        "velocityRequests": 0,
+        "footprintRequests": 0,
+        "surfaceRequests": 0,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 0,
+        "averageSurfaceMs": 0,
+        "frames": 0,
+        "velocityUploads": 0,
+        "maskUploads": 0,
+        "shaderCompilations": 0,
+        "disposedTiles": 0,
+        "meanCpuSubmissionMs": 0
+      },
+      "lastError": null
+    }
+  },
+  "final": {
+    "status": {
+      "state": "running",
+      "ready": true,
+      "scenarioId": "prague-5160-v1",
+      "limited": false,
+      "tiles": {
+        "required": 20,
+        "ready": 20,
+        "loading": 0,
+        "cached": 20,
+        "failed": 0,
+        "empty": 12,
+        "active": 4
+      },
+      "memory": {
+        "approximateCpuBytes": 33536288,
+        "approximateGpuBytes": 33536288
+      },
+      "statistics": {
+        "velocityRequests": 8,
+        "footprintRequests": 20,
+        "surfaceRequests": 8,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 126.33750000037253,
+        "averageSurfaceMs": 191.2624999973923,
+        "frames": 37,
+        "velocityUploads": 8,
+        "maskUploads": 8,
+        "shaderCompilations": 1,
+        "disposedTiles": 0,
+        "meanCpuSubmissionMs": 1.0972972967334695
+      },
+      "lastError": null
+    },
+    "gl": {
+      "Texture": {
+        "live": 16,
+        "created": 118,
+        "deleted": 102
+      },
+      "Buffer": {
+        "live": 16,
+        "created": 118,
+        "deleted": 102
+      },
+      "VertexArray": {
+        "live": 8,
+        "created": 59,
+        "deleted": 51
+      },
+      "Program": {
+        "live": 1,
+        "created": 5,
+        "deleted": 4
+      },
+      "Shader": {
+        "live": 0,
+        "created": 10,
+        "deleted": 10
+      },
+      "TransformFeedback": {
+        "live": 0,
+        "created": 0,
+        "deleted": 0
+      }
+    }
+  },
+  "initializationError": {
+    "code": "INITIALIZATION_FAILED",
+    "event": {
+      "code": "INITIALIZATION_FAILED",
+      "fatal": true,
+      "cause": "Deliberate initialization failure"
+    },
+    "status": {
+      "state": "error",
+      "ready": false,
+      "scenarioId": null,
+      "limited": false,
+      "tiles": {
+        "required": 0,
+        "ready": 0,
+        "loading": 0,
+        "cached": 0,
+        "failed": 0,
+        "empty": 0,
+        "active": 0
+      },
+      "memory": {
+        "approximateCpuBytes": 0,
+        "approximateGpuBytes": 0
+      },
+      "statistics": {
+        "velocityRequests": 0,
+        "footprintRequests": 0,
+        "surfaceRequests": 0,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 0,
+        "averageSurfaceMs": 0,
+        "frames": 0,
+        "velocityUploads": 0,
+        "maskUploads": 0,
+        "shaderCompilations": 0,
+        "disposedTiles": 0,
+        "meanCpuSubmissionMs": 0
+      },
+      "lastError": {
+        "code": "INITIALIZATION_FAILED",
+        "message": "Deliberate initialization failure",
+        "fatal": true
+      }
+    }
+  }
+}

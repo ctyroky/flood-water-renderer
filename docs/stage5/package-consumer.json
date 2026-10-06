@@ -1,0 +1,42 @@
+{
+  "directory": ".verification\\package-consumer-EbohM2",
+  "issues": [],
+  "libraryRequest": true,
+  "artifactSha256": "5aba81ab9f212ed5f76020e8cd3d7802149ffbdaa4423860c7153616d130f81a",
+  "status": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 16,
+      "ready": 16,
+      "loading": 0,
+      "cached": 25,
+      "failed": 0,
+      "empty": 6,
+      "active": 4
+    },
+    "memory": {
+      "approximateCpuBytes": 41920360,
+      "approximateGpuBytes": 41920360
+    },
+    "statistics": {
+      "velocityRequests": 10,
+      "footprintRequests": 16,
+      "surfaceRequests": 10,
+      "cacheHits": 0,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 198.7000000014901,
+      "averageSurfaceMs": 188.16000000238418,
+      "frames": 136,
+      "velocityUploads": 10,
+      "maskUploads": 10,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 4.929411765078411
+    },
+    "lastError": null
+  }
+}

@@ -1,19 +1,33 @@
 {
-  "name": "flood",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "name":"flood-water-renderer",
+  "version":"0.1.0",
+  "private":true,
+  "description":"Tiled flow-driven water for an existing ArcGIS SceneView",
+  "type":"module",
+  "license":"UNLICENSED",
+  "exports":{".":{"types":"./dist/flood-water-renderer.d.ts","import":"./dist/flood-water-renderer.js"}},
+  "types":"./dist/flood-water-renderer.d.ts",
+  "files":["dist","docs/architecture.md","docs/data-contract.md"],
+  "sideEffects":false,
+  "engines":{"node":">=22.12.0"},
+  "scripts":{
+    "dev":"vite",
+    "example":"vite --open",
+    "build":"npm run build:lib && npm run build:examples",
+    "build:lib":"vite build --config vite.lib.config.js",
+    "build:examples":"vite build",
+    "preview":"vite preview",
+    "test":"node --test tests/*.test.mjs",
+    "test:types":"tsc -p tests/types/tsconfig.json",
+    "test:browser":"node tests/integration.mjs"
   },
-  "devDependencies": {
-    "vite": "^8.3.0"
-  },
-  "dependencies": {
-    "@arcgis/core": "^5.1.26",
-    "@arcgis/map-components": "^5.1.26",
-    "@esri/calcite-components": "^5.1.2"
+  "peerDependencies":{"@arcgis/core":"5.1.26"},
+  "devDependencies":{
+    "@arcgis/core":"5.1.26",
+    "@arcgis/map-components":"5.1.26",
+    "@esri/calcite-components":"5.1.2",
+    "vite":"8.3.2",
+    "playwright-core":"1.63.0",
+    "typescript":"5.9.3"
   }
 }

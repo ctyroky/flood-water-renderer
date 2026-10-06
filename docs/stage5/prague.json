@@ -1,0 +1,89 @@
+{
+  "baseline": {
+    "state": "running",
+    "ready": true,
+    "scenarioId": "prague-5160-v1",
+    "limited": false,
+    "tiles": {
+      "required": 16,
+      "ready": 16,
+      "loading": 0,
+      "cached": 36,
+      "failed": 0,
+      "empty": 6,
+      "active": 4
+    },
+    "memory": {
+      "approximateCpuBytes": 41920360,
+      "approximateGpuBytes": 41920360
+    },
+    "statistics": {
+      "velocityRequests": 10,
+      "footprintRequests": 16,
+      "surfaceRequests": 10,
+      "cacheHits": 2,
+      "evictions": 0,
+      "cancellations": 0,
+      "averageVelocityMs": 306.74000000059607,
+      "averageSurfaceMs": 262.4800000011921,
+      "frames": 205,
+      "velocityUploads": 10,
+      "maskUploads": 10,
+      "shaderCompilations": 1,
+      "disposedTiles": 0,
+      "meanCpuSubmissionMs": 3.5199999999709246
+    },
+    "lastError": null
+  },
+  "updated": {
+    "status": {
+      "state": "running",
+      "ready": true,
+      "scenarioId": "prague-5160-v1",
+      "limited": false,
+      "tiles": {
+        "required": 16,
+        "ready": 16,
+        "loading": 0,
+        "cached": 36,
+        "failed": 0,
+        "empty": 6,
+        "active": 4
+      },
+      "memory": {
+        "approximateCpuBytes": 41920360,
+        "approximateGpuBytes": 41920360
+      },
+      "statistics": {
+        "velocityRequests": 10,
+        "footprintRequests": 16,
+        "surfaceRequests": 10,
+        "cacheHits": 2,
+        "evictions": 0,
+        "cancellations": 0,
+        "averageVelocityMs": 306.74000000059607,
+        "averageSurfaceMs": 262.4800000011921,
+        "frames": 208,
+        "velocityUploads": 10,
+        "maskUploads": 10,
+        "shaderCompilations": 1,
+        "disposedTiles": 0,
+        "meanCpuSubmissionMs": 3.485576923005283
+      },
+      "lastError": null
+    },
+    "parameters": {
+      "flowSpeed": 2.5,
+      "brightness": 1.4,
+      "reflection": 1.5,
+      "waterColor": 0.65,
+      "opacity": 0.96,
+      "paused": true
+    }
+  },
+  "both": {
+    "flow": true,
+    "water": false
+  },
+  "issues": []
+}

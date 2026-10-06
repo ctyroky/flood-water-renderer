@@ -1,0 +1,560 @@
+{
+  "views": [
+    {
+      "name": "central-seams",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 24,
+        "ready": 24,
+        "loading": 0,
+        "failed": 0,
+        "empty": 14,
+        "active": 5,
+        "cached": 40,
+        "gpuMiB": 39.978370666503906,
+        "residentMiB": 39.978370666503906,
+        "limited": false,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 24,
+        "errors": 0,
+        "velocityRequests": 10,
+        "footprintRequests": 24,
+        "surfaceRequests": 10,
+        "velocityMs": 4181,
+        "surfaceMs": 2812.900000035763,
+        "velocityCompleted": 10,
+        "surfaceCompleted": 10,
+        "averageVelocityMs": 418.1,
+        "averageSurfaceMs": 281.29000000357627
+      },
+      "meanCpuSubmissionMs": 9.545222930088165
+    },
+    {
+      "name": "nearby",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 20,
+        "ready": 28,
+        "loading": 0,
+        "failed": 0,
+        "empty": 15,
+        "active": 6,
+        "cached": 40,
+        "gpuMiB": 51.97188186645508,
+        "residentMiB": 51.97188186645508,
+        "limited": false,
+        "cacheHits": 16,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 28,
+        "errors": 0,
+        "velocityRequests": 13,
+        "footprintRequests": 28,
+        "surfaceRequests": 13,
+        "velocityMs": 6199.399999991059,
+        "surfaceMs": 3848.300000026822,
+        "velocityCompleted": 13,
+        "surfaceCompleted": 13,
+        "averageVelocityMs": 476.87692307623536,
+        "averageSurfaceMs": 296.0230769251402
+      },
+      "meanCpuSubmissionMs": 9.627433628569134
+    },
+    {
+      "name": "cache-return",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 16,
+        "ready": 28,
+        "loading": 0,
+        "failed": 0,
+        "empty": 15,
+        "active": 4,
+        "cached": 40,
+        "gpuMiB": 51.97188186645508,
+        "residentMiB": 51.97188186645508,
+        "limited": false,
+        "cacheHits": 32,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 28,
+        "errors": 0,
+        "velocityRequests": 13,
+        "footprintRequests": 28,
+        "surfaceRequests": 13,
+        "velocityMs": 6199.399999991059,
+        "surfaceMs": 3848.300000026822,
+        "velocityCompleted": 13,
+        "surfaceCompleted": 13,
+        "averageVelocityMs": 476.87692307623536,
+        "averageSurfaceMs": 296.0230769251402
+      },
+      "meanCpuSubmissionMs": 10.295220588224337
+    },
+    {
+      "name": "bridge-oblique",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 25,
+        "ready": 33,
+        "loading": 0,
+        "failed": 0,
+        "empty": 18,
+        "active": 7,
+        "cached": 40,
+        "gpuMiB": 59.96755599975586,
+        "residentMiB": 59.96755599975586,
+        "limited": false,
+        "cacheHits": 52,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 33,
+        "errors": 0,
+        "velocityRequests": 15,
+        "footprintRequests": 33,
+        "surfaceRequests": 15,
+        "velocityMs": 7788.999999985099,
+        "surfaceMs": 4896.900000020862,
+        "velocityCompleted": 15,
+        "surfaceCompleted": 15,
+        "averageVelocityMs": 519.2666666656733,
+        "averageSurfaceMs": 326.46000000139077
+      },
+      "meanCpuSubmissionMs": 9.577624309211146
+    },
+    {
+      "name": "vysehrad",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 20,
+        "ready": 53,
+        "loading": 0,
+        "failed": 0,
+        "empty": 30,
+        "active": 4,
+        "cached": 60,
+        "gpuMiB": 91.95025253295898,
+        "residentMiB": 91.95025253295898,
+        "limited": false,
+        "cacheHits": 52,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 53,
+        "errors": 0,
+        "velocityRequests": 23,
+        "footprintRequests": 53,
+        "surfaceRequests": 23,
+        "velocityMs": 11429.199999988079,
+        "surfaceMs": 7473.600000053644,
+        "velocityCompleted": 23,
+        "surfaceCompleted": 23,
+        "averageVelocityMs": 496.9217391299165,
+        "averageSurfaceMs": 324.93913043711495
+      },
+      "meanCpuSubmissionMs": 7.1599999996546275
+    },
+    {
+      "name": "holesovice",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 20,
+        "ready": 73,
+        "loading": 0,
+        "failed": 0,
+        "empty": 38,
+        "active": 3,
+        "cached": 73,
+        "gpuMiB": 139.92429733276367,
+        "residentMiB": 139.92429733276367,
+        "limited": false,
+        "cacheHits": 52,
+        "evictions": 7,
+        "cancellations": 0,
+        "completed": 73,
+        "errors": 0,
+        "velocityRequests": 35,
+        "footprintRequests": 73,
+        "surfaceRequests": 35,
+        "velocityMs": 16726.100000023842,
+        "surfaceMs": 11129.300000071526,
+        "velocityCompleted": 35,
+        "surfaceCompleted": 35,
+        "averageVelocityMs": 477.88857142925264,
+        "averageSurfaceMs": 317.9800000020436
+      },
+      "meanCpuSubmissionMs": 6.17132132097676
+    },
+    {
+      "name": "chuchle",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 25,
+        "ready": 82,
+        "loading": 0,
+        "failed": 0,
+        "empty": 42,
+        "active": 6,
+        "cached": 82,
+        "gpuMiB": 159.91348266601562,
+        "residentMiB": 159.91348266601562,
+        "limited": false,
+        "cacheHits": 52,
+        "evictions": 23,
+        "cancellations": 0,
+        "completed": 98,
+        "errors": 0,
+        "velocityRequests": 49,
+        "footprintRequests": 98,
+        "surfaceRequests": 49,
+        "velocityMs": 24658.70000000298,
+        "surfaceMs": 15444.900000065565,
+        "velocityCompleted": 49,
+        "surfaceCompleted": 49,
+        "averageVelocityMs": 503.23877551026493,
+        "averageSurfaceMs": 315.20204081766457
+      },
+      "meanCpuSubmissionMs": 5.262002412153383
+    },
+    {
+      "name": "after-eviction",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 25,
+        "ready": 25,
+        "loading": 0,
+        "failed": 0,
+        "empty": 11,
+        "active": 6,
+        "cached": 25,
+        "gpuMiB": 55.96971893310547,
+        "residentMiB": 55.96971893310547,
+        "limited": false,
+        "cacheHits": 52,
+        "evictions": 80,
+        "cancellations": 0,
+        "completed": 98,
+        "errors": 0,
+        "velocityRequests": 49,
+        "footprintRequests": 98,
+        "surfaceRequests": 49,
+        "velocityMs": 24658.70000000298,
+        "surfaceMs": 15444.900000065565,
+        "velocityCompleted": 49,
+        "surfaceCompleted": 49,
+        "averageVelocityMs": 503.23877551026493,
+        "averageSurfaceMs": 315.20204081766457
+      },
+      "meanCpuSubmissionMs": 5.186879432229567
+    },
+    {
+      "name": "restarted",
+      "snapshot": {
+        "scenario": "prague-5160-v1",
+        "required": 24,
+        "ready": 24,
+        "loading": 0,
+        "failed": 0,
+        "empty": 14,
+        "active": 5,
+        "cached": 40,
+        "gpuMiB": 39.978370666503906,
+        "residentMiB": 39.978370666503906,
+        "limited": false,
+        "cacheHits": 0,
+        "evictions": 0,
+        "cancellations": 0,
+        "completed": 24,
+        "errors": 0,
+        "velocityRequests": 10,
+        "footprintRequests": 24,
+        "surfaceRequests": 10,
+        "velocityMs": 2360.100000038743,
+        "surfaceMs": 2340.1000000089407,
+        "velocityCompleted": 10,
+        "surfaceCompleted": 10,
+        "averageVelocityMs": 236.0100000038743,
+        "averageSurfaceMs": 234.01000000089408
+      },
+      "meanCpuSubmissionMs": 2.518354430889027
+    }
+  ],
+  "cpuSeams": [
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/-1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 22,
+      "maskDifferent": 8,
+      "geometryMax": 1.7086480014008443e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+      "b": "prague-5160-v1/geographic-512-v1/0/-1/0",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 7,
+      "maskDifferent": 9,
+      "geometryMax": 1.52587890625e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/-2",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/-2",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 0,
+      "maskDifferent": 0,
+      "geometryMax": 1.7059844799040144e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/-2",
+      "b": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 15,
+      "maskDifferent": 1,
+      "geometryMax": 1.52587890625e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/0/-1",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/0",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 2,
+      "maskDifferent": 4,
+      "geometryMax": 1.52587890625e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/0",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/0",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 0,
+      "maskDifferent": 0,
+      "geometryMax": 1.7059844799040144e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/0",
+      "b": "prague-5160-v1/geographic-512-v1/0/-1/1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 0,
+      "maskDifferent": 0,
+      "geometryMax": 1.7059844799040144e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/0/-2",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/-1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 0,
+      "maskDifferent": 0,
+      "geometryMax": 1.52587890625e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-2/0",
+      "b": "prague-5160-v1/geographic-512-v1/0/-1/0",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 55,
+      "maskDifferent": 14,
+      "geometryMax": 2.1579186437577746e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-2/0",
+      "b": "prague-5160-v1/geographic-512-v1/0/-2/1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 1,
+      "maskDifferent": 1,
+      "geometryMax": 2.1579186437577746e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/0/0",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 11,
+      "maskDifferent": 18,
+      "geometryMax": 1.7059844799040144e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-1/1",
+      "b": "prague-5160-v1/geographic-512-v1/0/0/1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 0,
+      "maskDifferent": 0,
+      "geometryMax": 1.8688123647942946e-05
+    },
+    {
+      "a": "prague-5160-v1/geographic-512-v1/0/-2/1",
+      "b": "prague-5160-v1/geographic-512-v1/0/-1/1",
+      "velocityMax": 0,
+      "velocityDifferent": 0,
+      "maskMax": 9,
+      "maskDifferent": 14,
+      "geometryMax": 1.7481138973067626e-05
+    }
+  ],
+  "gpuSeams": {
+    "results": [
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/-1",
+        "samples": 108,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 40
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+        "b": "prague-5160-v1/geographic-512-v1/0/-1/0",
+        "samples": 80,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 38
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/-2",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/-2",
+        "samples": 124,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 70
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/-2",
+        "b": "prague-5160-v1/geographic-512-v1/0/-1/-1",
+        "samples": 60,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 33
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/0/-1",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/0",
+        "samples": 4,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 3
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/0",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/0",
+        "samples": 124,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 67
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/0",
+        "b": "prague-5160-v1/geographic-512-v1/0/-1/1",
+        "samples": 124,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 30
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/0/-2",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/-1",
+        "samples": 28,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 8
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-2/0",
+        "b": "prague-5160-v1/geographic-512-v1/0/-1/0",
+        "samples": 68,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 0
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-2/0",
+        "b": "prague-5160-v1/geographic-512-v1/0/-2/1",
+        "samples": 16,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 0
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/0/0",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/1",
+        "samples": 16,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 12
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-1/1",
+        "b": "prague-5160-v1/geographic-512-v1/0/0/1",
+        "samples": 124,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 76
+      },
+      {
+        "a": "prague-5160-v1/geographic-512-v1/0/-2/1",
+        "b": "prague-5160-v1/geographic-512-v1/0/-1/1",
+        "samples": 20,
+        "maxRGBAError": 0,
+        "timeVaryingSamples": 0
+      }
+    ],
+    "error": 0
+  },
+  "imageMetrics": {
+    "motion_010s_mean_absolute_rgb_change": 1.0761866666666666,
+    "reset_0002s_mean_absolute_rgb_change": 0.0452325,
+    "motion_changed_pixel_percent": 14.55425,
+    "reset_changed_pixel_percent": 0.004
+  },
+  "controls": {
+    "blue": {
+      "requests": 10,
+      "uploads": 10,
+      "color": [
+        0.11999999731779099,
+        0.28999999165534973,
+        0.3499999940395355,
+        0.9599999785423279
+      ],
+      "speed": [
+        0.11999999731779099,
+        4.800000190734863,
+        3.700000047683716
+      ]
+    },
+    "brown": {
+      "requests": 10,
+      "uploads": 10,
+      "color": [
+        0.3799999952316284,
+        0.2800000011920929,
+        0.1599999964237213,
+        0.9599999785423279
+      ],
+      "speed": [
+        0.30000001192092896,
+        4.800000190734863,
+        3.700000047683716
+      ]
+    },
+    "neutral": {
+      "requests": 10,
+      "uploads": 10,
+      "color": [
+        0.25,
+        0.3400000035762787,
+        0.30000001192092896,
+        0.9599999785423279
+      ],
+      "speed": [
+        0.47999998927116394,
+        4.800000190734863,
+        3.700000047683716
+      ]
+    }
+  },
+  "restart": {
+    "oldRecords": 0,
+    "oldDisposed": true,
+    "oldGPU": 0,
+    "newScenario": "prague-5160-v1"
+  },
+  "issues": [],
+  "warnings": [],
+  "remoteMutations": []
+}
