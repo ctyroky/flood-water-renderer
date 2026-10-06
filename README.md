@@ -6,6 +6,14 @@ procedural water normals using the local velocity. It owns no SceneView, map,
 source layers, camera or UI. No water textures or pre-generated water tiles need
 to be deployed.
 
+## Live demo
+
+**[Open the Prague flood demo](https://ctyroky.github.io/flood-water-renderer/)**
+
+The live example uses the same renderer library and Prague scenario as the local
+demo. It runs over HTTPS using anonymously accessible ArcGIS services. See the
+[Stage 6 deployment and verification report](STAGE6.md).
+
 Version **0.1.0**, pre-1.0 API; not published to npm. Project source code and
 documentation use the **[MIT License](LICENSE)**. `private: true` prevents accidental
 npm publication; it does not determine the repository's GitHub visibility.
