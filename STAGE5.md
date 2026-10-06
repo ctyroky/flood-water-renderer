@@ -171,8 +171,9 @@ docs/architecture.md and docs/data-contract.md. `private:true`, version 0.1.0,
 `UNLICENSED`, exports/types/files/peerDependencies/scripts are set. Nothing was
 published. License/ownership terms must be agreed before external redistribution.
 
-The actual handover archive is
-[`flood-water-renderer-0.1.0.tgz`](flood-water-renderer-0.1.0.tgz), **27,829 bytes**.
+The original local handover archive was
+`flood-water-renderer-0.1.0.tgz`, **27,829 bytes**. Archives are not tracked;
+run `npm run build:lib` and `npm pack` to generate one from the current checkout.
 The tested JS SHA256 is
 `5aba81ab9f212ed5f76020e8cd3d7802149ffbdaa4423860c7153616d130f81a`.
 Both the direct-dist integration and clean installed-package reports match it.

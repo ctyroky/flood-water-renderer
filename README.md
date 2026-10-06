@@ -6,8 +6,23 @@ procedural water normals using the local velocity. It owns no SceneView, map,
 source layers, camera or UI. No water textures or pre-generated water tiles need
 to be deployed.
 
-Version **0.1.0**, private/local handover package; not published to npm. The API is
-pre-1.0. Source ownership/licensing must be agreed separately (`UNLICENSED`).
+Version **0.1.0**, pre-1.0 API; not published to npm. The repository remains
+**UNLICENSED** (see [license status](LICENSE)). `private: true` prevents accidental
+npm publication; it does not determine the repository's GitHub visibility.
+
+![Flow-driven water in the Prague demonstration scene](docs/stage5/prague-controls.png)
+
+The image is a historical demo capture using external ArcGIS/Prague services.
+The renderer visualizes supplied flood data; it does not simulate flood propagation.
+
+## Documentation
+
+- [Illustrated principles and technical implementation (Czech PDF, 14 pages)](docs/renderer-guide-cs.pdf)
+- [Architecture and ownership](docs/architecture.md)
+- [Normalized data contract](docs/data-contract.md)
+- [Static demo deployment](docs/deployment.md)
+- [Development and verification](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md) and [GitHub publication handoff](docs/publication.md)
 
 ## Requirements
 
@@ -40,6 +55,8 @@ npm run build:examples  # demo-dist/: separate demonstration applications
 npm test               # grid/cache/API/package checks; build library first
 npm run test:types     # public declaration/consumer type check
 npm run test:browser   # builds should already exist; launches Chrome + test server
+npm run test:prague    # live Prague UI checks; requires Chrome and service access
+npm run check          # build + Node tests + public type checks (used by CI)
 ```
 
 No global test packages or machine-specific paths are needed. The library is
@@ -59,6 +76,25 @@ npm install /path/to/flood-water-renderer-0.1.0.tgz @arcgis/core@5.1.26
 
 The name is a local placeholder, not a claim of npm name availability. Do not
 publish this package. `private: true` prevents accidental publication.
+
+## Repository layout
+
+```text
+src/public/       public API, declarations and lifecycle
+src/data/         ArcGIS adapter and normalized tile data
+src/water/        grid, camera selection and tile cache
+src/render/       RenderNode, GPU resources and GLSL
+examples/         Prague demo and minimal host integration
+tests/, scripts/  unit, type, browser and package verification
+docs/             guides and historical rendering evidence
+development/      historical debugging snapshots, not runtime dependencies
+dist/             generated reusable library (ignored)
+demo-dist/        generated static website (ignored)
+```
+
+CI builds and checks the project on Windows and Ubuntu using Node 24. Browser
+tests are separate because they require live ArcGIS services and WebGL. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for commands and evidence handling.
 
 ## Quick start with existing objects
 

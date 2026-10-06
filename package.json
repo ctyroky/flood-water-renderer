@@ -19,7 +19,11 @@
     "preview":"vite preview",
     "test":"node --test tests/*.test.mjs",
     "test:types":"tsc -p tests/types/tsconfig.json",
-    "test:browser":"node tests/integration.mjs"
+    "test:browser":"node tests/integration.mjs",
+    "test:prague":"node tests/prague.mjs",
+    "check":"npm run build && npm test && npm run test:types",
+    "verify:clean":"node scripts/verify-clean.mjs",
+    "verify:package":"node scripts/verify-package.mjs"
   },
   "peerDependencies":{"@arcgis/core":"5.1.26"},
   "devDependencies":{

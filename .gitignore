@@ -26,3 +26,19 @@ dist-ssr
 
 demo-dist/
 *.tgz
+
+# Local documentation output and rendering scratch files
+/output/
+/tmp/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Test tooling output
+/coverage/
+/playwright-report/
+/test-results/
